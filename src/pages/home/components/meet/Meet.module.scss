@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .lorem{
+      width: 70%;
+        text-align: center;
+
+    }
+    .cards{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        .card{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .cardText{
+                background-color: #E6E6E6;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                height: 70px;
+                h6{
+                    color: #696f78;
+                    text-transform: capitalize;
+                    font-size: 20px;
+                }
+                p{
+                    color: #373a3f;
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+}

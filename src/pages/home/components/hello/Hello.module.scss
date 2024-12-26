@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    height: 120vh;
+    background: url('https://preview.colorlib.com/theme/bizpro/images/home/slide-1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    .image{
+        height: 100vh;
+    }
+    .imageText{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        height: 120vh;
+        width: 100%;
+        h1{
+            color: white;
+            font-size: 48px;
+            font-weight:700;
+            line-height: 53px;
+            font-family: Raleway, sans-serif;
+            text-transform: uppercase;
+        }
+        span{
+            color: white;
+            font-size: 18px;
+            font-weight:500;
+            line-height: 53px;
+            font-family: Raleway, sans-serif;
+            text-transform: uppercase;
+
+        }
+        button{
+            font-size: 14px;
+            text-transform: uppercase;
+            font-family: Raleway, sans-serif;
+            width: 170px;
+            height: 50px;
+            background-color: transparent;
+            color: white;
+            border: 1px solid red;
+        }
+
+    }
+}
+@media (max-width:576px) {
+    .container{
+        .imageText{
+            h1{
+                font-size: 27px;
+            }
+            span{
+                font-size: 14px;
+            }
+        }
+    }
+}

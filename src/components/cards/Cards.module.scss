@@ -1,0 +1,58 @@
+.container {
+    width: 22%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #f3f3f3;
+    box-shadow: 1px 2px 1px 2px #f3f3f3;
+    border-radius: 15px;
+    position: relative;
+    padding-top: 20px;
+
+    .imgBox {
+        width: 90%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .wishBtn {
+        width: 30px;
+        height: 30px;
+        background-color: transparent;
+        border: none;
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        cursor: pointer;
+        svg{
+            font-size: 20px;
+        }
+    }
+
+    .basketBtn {
+        width: 90%;
+        height: 35px;
+        border-radius: 20px;
+        border: none;
+        color: white;
+        background-color: orangered;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        cursor: pointer;
+        svg{
+            font-size: 22px;
+        }
+    }
+    
+}
